@@ -6,7 +6,7 @@ import {
 const ArrowUp = () => {
   return (
     <div className="flex text-5xl">
-      <Link href="/"><FiArrowLeft className="bg-white" style={{ color: "#ff1e56" }} /></Link>
+      <Link href="/"><FiArrowLeft className="bg-white cursor-pointer" style={{ color: "#ffac41" }} /></Link>
     </div>
   );
 }
