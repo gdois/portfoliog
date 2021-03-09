@@ -15,7 +15,7 @@ const Projects = () => {
             PROJETOS
           </h1>
         </div>
-        <div className='grid md:grid-cols-3 md:gap-4'>
+        <div className='grid md:grid-cols-3 md:gap-4 mb-14'>
           <section className='p-5 mb-5 md:mb-0 rounded-lg bg-white shadow-lg'>
             <a
               href='https://cafemonik.com.br'
