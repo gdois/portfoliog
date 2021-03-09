@@ -1,11 +1,11 @@
 import Head from "next/head";
 import ArrowLeft from "../components/ArrowLeft";
 
-const Home = () => {
+const About = () => {
   return (
     <div className='container mx-auto text-center'>
       <Head>
-        <title>Projetos</title>
+        <title>Sobre mim</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div>
@@ -49,6 +49,8 @@ const Home = () => {
           <button
             className='pt-2 pl-10 pb-2 pr-10 text-2xl rounded'
             style={{ backgroundColor: "#ffac41" }}
+            target="_blank"
+            rel='noopener noreferrer'
             type='download'
           >
             Clica aqui
@@ -59,4 +61,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
