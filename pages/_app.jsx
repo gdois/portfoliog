@@ -32,7 +32,7 @@ const MyApp = ({ Component, pageProps }) => {
           <link rel='icon' href='/favicon.ico' />
         </Head>
       </html>
-      <div className='flex fixed bottom-0 left-2/4 transform -translate-x-2/4'>
+      <div className='flex fixed bottom-0 left-2/4 transform -translate-x-2/4 z-50'>
         <a
           href='https://github.com/shumtz'
           target='_blank'

@@ -31,6 +31,12 @@ const Home = () => {
               <Link href='/about'>Sobre mim</Link>
             </span>
             <span
+              className='underline text-2xl text-center pr-4 uppercase transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
+              style={{ color: "#ffac41" }}
+            >
+              <Link href='/skills'>Skills</Link>
+            </span>
+            <span
               className='underline text-2xl text-center uppercase transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
               style={{ color: "#ffac41" }}
             >
