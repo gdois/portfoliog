@@ -39,8 +39,8 @@ const MyApp = ({ Component, pageProps }) => {
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiGithub className='text-4xl' style={{ color: "#ff1e56" }} />
-            <span style={{ display: "none" }}>Github</span>
           </div>
+          <span style={{ display: "none" }}>Github</span>
         </a>
         <a
           href='https://wa.link/nmcs4z'
@@ -53,8 +53,8 @@ const MyApp = ({ Component, pageProps }) => {
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
-            <span style={{ display: "none" }}>Whatsapp</span>
           </div>
+          <span style={{ display: "none" }}>Whatsapp</span>
         </a>
         <a href='mailto:giovanni_soares@aol.com' alt='email'>
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
@@ -62,8 +62,8 @@ const MyApp = ({ Component, pageProps }) => {
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
-            <span style={{ display: "none" }}>E-mail</span>
           </div>
+          <span style={{ display: "none" }}>E-mail</span>
         </a>
         <a
           href='https://www.linkedin.com/in/giovanni-soares-9a0203176/'
@@ -76,8 +76,8 @@ const MyApp = ({ Component, pageProps }) => {
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
-            <span style={{ display: "none" }}>Linkedin</span>
           </div>
+          <span style={{ display: "none" }}>Linkedin</span>
         </a>
         <a
           href='https://gitlab.com/gio_exited'
@@ -90,8 +90,8 @@ const MyApp = ({ Component, pageProps }) => {
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
-            <span style={{ display: "none" }}>Gitlab</span>
           </div>
+          <span style={{ display: "none" }}>Gitlab</span>
         </a>
       </div>
       <Component {...pageProps} />
