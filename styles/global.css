@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+}
+
+a {
+  cursor: pointer;
+}
+
+.hr {
+  border: 2px solid #ff1e56;
+  border-radius: 5px;
+}
+
+.texts {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
