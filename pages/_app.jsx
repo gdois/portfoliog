@@ -38,6 +38,7 @@ const MyApp = ({ Component, pageProps }) => {
           target='_blank'
           rel='noopener'
           alt='github'
+          aria-label="Github"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiGithub className='text-4xl' style={{ color: "#ff1e56" }} />
@@ -49,6 +50,7 @@ const MyApp = ({ Component, pageProps }) => {
           target='_blank'
           rel='noopener'
           alt='whatsapp'
+          aria-label="Whatsapp"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiMessageSquare
@@ -58,7 +60,7 @@ const MyApp = ({ Component, pageProps }) => {
           </div>
           <span style={{ display: "none" }}>Whatsapp</span>
         </a>
-        <a href='mailto:giovanni_soares@aol.com' alt='email'>
+        <a href='mailto:giovanni_soares@aol.com' alt='email' aria-label="E-mail">
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiMail
               className='text-4xl rounded bg-white'
@@ -72,6 +74,7 @@ const MyApp = ({ Component, pageProps }) => {
           target='_blank'
           rel='noopener'
           alt='linkedin'
+          aria-label="Linkedin"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiLinkedin
@@ -86,6 +89,7 @@ const MyApp = ({ Component, pageProps }) => {
           target='_blank'
           rel='noopener'
           alt='gitlab'
+          aria-label="Gitlab"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiGitlab
