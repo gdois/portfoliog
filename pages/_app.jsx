@@ -11,7 +11,6 @@ import {
   FiMail,
 } from "react-icons/fi";
 import Head from "next/head";
-import { Html } from "next/document";
 
 const MyApp = ({ Component, pageProps }) => {
   Router.events.on("routeChangeStart", () => NProgress.start());
@@ -20,16 +19,35 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Head>
-        <Html lang='pt-br' />
-      </Head>
+      <html>
+        <Head>
+          <meta property='og:title' content='Home' key='Home' />
+          <meta
+            name='viewport'
+            content='initial-scale=1.0, width=device-width'
+          />
+          <meta name='Description' content='Portfolio Gio' />
+          <meta name='robots' content='noindex' />
+          <link rel='icon' href='/favicon.ico' />
+        </Head>
+      </html>
       <div className='flex fixed bottom-0 left-2/4 transform -translate-x-2/4'>
         <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-          <a href='https://github.com/shumtz' target='_blank' rel="noopener" alt="github">
+          <a
+            href='https://github.com/shumtz'
+            target='_blank'
+            rel='noopener'
+            alt='github'
+          >
             <FiGithub className='text-4xl' style={{ color: "#ff1e56" }} />
           </a>
         </div>
-        <a href='https://wa.link/nmcs4z' target='_blank' rel='noopener' alt="whatsapp">
+        <a
+          href='https://wa.link/nmcs4z'
+          target='_blank'
+          rel='noopener'
+          alt='whatsapp'
+        >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiMessageSquare
               className='text-4xl rounded bg-white'
@@ -37,7 +55,7 @@ const MyApp = ({ Component, pageProps }) => {
             />
           </div>
         </a>
-        <a href='mailto:giovanni_soares@aol.com' alt="email">
+        <a href='mailto:giovanni_soares@aol.com' alt='email'>
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiMail
               className='text-4xl rounded bg-white'
@@ -49,7 +67,7 @@ const MyApp = ({ Component, pageProps }) => {
           href='https://www.linkedin.com/in/giovanni-soares-9a0203176/'
           target='_blank'
           rel='noopener'
-          alt="linkedin"
+          alt='linkedin'
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiLinkedin
@@ -58,7 +76,12 @@ const MyApp = ({ Component, pageProps }) => {
             />
           </div>
         </a>
-        <a href='https://gitlab.com/gio_exited' target='_blank' rel='noopener' alt="gitlab">
+        <a
+          href='https://gitlab.com/gio_exited'
+          target='_blank'
+          rel='noopener'
+          alt='gitlab'
+        >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
             <FiGitlab
               className='text-4xl rounded bg-white'

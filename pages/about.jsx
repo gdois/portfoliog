@@ -6,10 +6,6 @@ const About = () => {
     <div className='container mx-auto text-center'>
       <Head>
         <title>Sobre mim</title>
-        <link rel='icon' href='/favicon.ico' />
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-        <meta name='Description' content='Portfolio Gio' />
-        <meta name='robots' content='noindex' />
       </Head>
       <div>
         <ArrowLeft />
