@@ -26,7 +26,7 @@ const MyApp = ({ Component, pageProps }) => {
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
-          <meta name="Description" content="Portfolio Gio"></meta>
+          <meta name="Description" content="Portfolio Gio" />
           <meta name="robots" content="noindex"/>
       </Head>
       <div className='flex fixed bottom-0 left-2/4 transform -translate-x-2/4'>
