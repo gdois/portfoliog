@@ -22,12 +22,6 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <Html lang='pt-br' />
-          <meta
-            name='viewport'
-            content='initial-scale=1.0, width=device-width'
-          />
-          <meta name="Description" content="Portfolio Gio" />
-          <meta name="robots" content="noindex"/>
       </Head>
       <div className='flex fixed bottom-0 left-2/4 transform -translate-x-2/4'>
         <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>

@@ -7,6 +7,9 @@ const About = () => {
       <Head>
         <title>Sobre mim</title>
         <link rel='icon' href='/favicon.ico' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name='Description' content='Portfolio Gio' />
+        <meta name='robots' content='noindex' />
       </Head>
       <div>
         <ArrowLeft />
@@ -49,7 +52,7 @@ const About = () => {
           <button
             className='pt-2 pl-10 pb-2 pr-10 text-2xl rounded'
             style={{ backgroundColor: "#ffac41" }}
-            target="_blank"
+            target='_blank'
             rel='noopener noreferrer'
             type='download'
           >
