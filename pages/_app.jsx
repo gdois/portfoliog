@@ -21,12 +21,14 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <html lang='pt-br'>
         <Head>
+          <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
           <meta property='og:title' content='Home' key='Home' />
           <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
           <meta name='Description' content='Portfolio Gio' />
+          <meta name="robots" content="index, follow" />
           <link rel='icon' href='/favicon.ico' />
         </Head>
       </html>
