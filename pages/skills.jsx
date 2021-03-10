@@ -25,9 +25,6 @@ const skills = () => {
               <Progress value='1 Ano' color='#ffac41' text='Sass' />
               <Progress value='85' color='#ffac41' text='Javascript' />
               <Progress value='60' color='#ffac41' text='Typescript' />
-              <Progress value='45' color='#ffac41' text='C/C++' />
-              <Progress value='20' color='#ffac41' text='Python' />
-              <Progress value='10' color='#ffac41' text='GoLang' />
               <Progress value='60' color='#ffac41' text='React' />
               <Progress value='20' color='#ffac41' text='Redux' />
               <Progress value='45' color='#ffac41' text='Gatsby' />
@@ -42,9 +39,6 @@ const skills = () => {
               <Progress value='60' color='#ffac41' text='Figma' />
               <Progress value='40' color='#ffac41' text='Gimp' />
               <Progress value='50' color='#ffac41' text='Photoshop' />
-              <Progress value='30' color='#ffac41' text='Google Cloud' />
-              <Progress value='10' color='#ffac41' text='AWS' />
-              <Progress value='40' color='#ffac41' text='OVH' />
             </section>
           </div>
         </div>
