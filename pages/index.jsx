@@ -40,7 +40,7 @@ const Home = () => {
               className='underline text-2xl text-center uppercase transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
               style={{ color: "#ffac41" }}
             >
-              <Link href='/soon'>Blog</Link>
+              <Link href='/blog'>Blog</Link>
             </span>
           </div>
         </div>

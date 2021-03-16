@@ -39,7 +39,7 @@ const Projects = () => {
           </section>
           <section className='p-5 mb-5 md:mb-0 rounded-lg bg-white shadow-lg'>
             <a
-              href='https://example.com.br'
+              href='https://gio.vanni.app'
               alt='Portfolio'
               target='_blank'
               rel='noopener noreferrer'
@@ -48,7 +48,7 @@ const Projects = () => {
             </a>
             <h1 className='mt-4 text-2xl'>
               <a
-                href='https://example.com.br'
+                href='https://gio.vanni.app'
                 alt='Portfolio'
                 target='_blank'
                 rel='noopener noreferrer'

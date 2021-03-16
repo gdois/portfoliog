@@ -3,10 +3,10 @@ import {
   FiArrowLeft,
 } from "react-icons/fi";
 
-const ArrowUp = () => {
+const ArrowUp = ({ to }) => {
   return (
     <div className="flex text-5xl">
-      <Link href="/"><FiArrowLeft className="bg-white cursor-pointer" style={{ color: "#ffac41" }} /></Link>
+      <Link href={to ? to : "/"}><FiArrowLeft className="bg-white cursor-pointer" style={{ color: "#ffac41" }} /></Link>
     </div>
   );
 }
