@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import ReactMarkdown from "react-markdown";
+import Markdown from 'react-markdown';
 import ArrowLeft from "../../components/ArrowLeft";
 
 const Blog = () => {
@@ -22,7 +22,7 @@ const Blog = () => {
   return (
     <>
       <ArrowLeft to='/blog' />
-      <div className='container mx-auto'>
+      <div className='container mx-auto pt-10'>
         <div>
           {data && (
             <section className='p-5 mb-5 md:mb-0 rounded-lg bg-white shadow-lg'>
@@ -31,7 +31,7 @@ const Blog = () => {
                 src={`http://localhost:1337${data.Cover.url}`}
               /> */}
               <h1 className='mt-4 text-2xl text-center'>{data.Title}</h1>
-              <ReactMarkdown className='p-10'>{data.Text}</ReactMarkdown>
+              <Markdown className='whitespace-pre-wrap p-10'>{data.Text}</Markdown>
             </section>
           )}
         </div>

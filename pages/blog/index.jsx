@@ -3,7 +3,7 @@ import Link from "next/link";
 import ArrowLeft from "../../components/ArrowLeft";
 
 const Blog = () => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
 
   const showData = async () => {
     const response = await fetch("http://localhost:1337/blogs");
@@ -28,12 +28,12 @@ const Blog = () => {
           {data &&
             data.map((items) => (
               <section className='p-5 mb-5 md:mb-0 rounded-lg bg-white shadow-lg'>
-                <Link href={`/blog/${items.id}`} alt={`${items.Title}`}>
+                <a href={`/blog/${items.id}`} alt={`${items.Title}`}>
                   <img
                     className='w-full rounded'
-                    src={`http://localhost:1337${items.Cover.url}`}
+                    src={`http://localhost:1337${items?.Cover.url}`}
                   />
-                </Link>
+                </a>
                 <h1 className='mt-4 text-2xl'>
                   <Link href={`/blog/${items.id}`} alt={`${items.Title}`}>
                     {items.Title}
