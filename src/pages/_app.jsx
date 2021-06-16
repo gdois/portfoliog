@@ -10,6 +10,7 @@ import {
   FiGitlab,
   FiMail,
 } from "react-icons/fi";
+import { FaWhatsapp, FaTelegramPlane, FaEnvelope, FaGithub, FaGitlab, FaLinkedin, FaGit } from "react-icons/fa";
 import Head from "next/head";
 
 const MyApp = ({ Component, pageProps }) => {
@@ -41,28 +42,28 @@ const MyApp = ({ Component, pageProps }) => {
           aria-label="Github"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-            <FiGithub className='text-4xl' style={{ color: "#ff1e56" }} />
+            <FaGithub className='text-4xl' style={{ color: "#ff1e56" }} />
           </div>
           <span style={{ display: "none" }}>Github</span>
         </a>
         <a
-          href='https://wa.link/nmcs4z'
+          href='https://gitlab.com/gio_exited'
           target='_blank'
           rel='noopener'
-          alt='whatsapp'
-          aria-label="Whatsapp"
+          alt='gitlab'
+          aria-label="Gitlab"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-            <FiMessageSquare
+            <FaGitlab
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
           </div>
-          <span style={{ display: "none" }}>Whatsapp</span>
+          <span style={{ display: "none" }}>Gitlab</span>
         </a>
         <a href='mailto:giovanni_soares@aol.com' alt='email' aria-label="E-mail">
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-            <FiMail
+            <FaEnvelope
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
@@ -77,7 +78,7 @@ const MyApp = ({ Component, pageProps }) => {
           aria-label="Linkedin"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-            <FiLinkedin
+            <FaLinkedin
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
@@ -85,19 +86,34 @@ const MyApp = ({ Component, pageProps }) => {
           <span style={{ display: "none" }}>Linkedin</span>
         </a>
         <a
-          href='https://gitlab.com/gio_exited'
+          href='https://t.me/gio_exited'
           target='_blank'
           rel='noopener'
-          alt='gitlab'
-          aria-label="Gitlab"
+          alt='telegram'
+          aria-label="telegram"
         >
           <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
-            <FiGitlab
+            <FaTelegramPlane
               className='text-4xl rounded bg-white'
               style={{ color: "#ff1e56" }}
             />
           </div>
-          <span style={{ display: "none" }}>Gitlab</span>
+          <span style={{ display: "none" }}>Telegram</span>
+        </a>
+        <a
+          href='https://wa.link/nmcs4z'
+          target='_blank'
+          rel='noopener'
+          alt='whatsapp'
+          aria-label="Whatsapp"
+        >
+          <div className='rounded bg-white p-2 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+            <FaWhatsapp
+              className='text-4xl rounded bg-white'
+              style={{ color: "#ff1e56" }}
+            />
+          </div>
+          <span style={{ display: "none" }}>Whatsapp</span>
         </a>
       </div>
       <Component {...pageProps} />
