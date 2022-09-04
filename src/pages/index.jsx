@@ -17,7 +17,7 @@ const Home = () => {
             GIO.
           </h1>
           <hr className='hr' />
-          <div className='flex pt-2'>
+          <div className='flex justify-center	pt-2'>
             <span
               className='underline text-2xl text-center pr-4 uppercase transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
               style={{ color: "#ffac41" }}
