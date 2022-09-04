@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className='container mx-auto flex h-screen'>
         <Head>
-          <title>Gio.</title>
+          <title>Gio</title>
         </Head>
 
         <div className='m-auto'>
