@@ -7,17 +7,19 @@ const Blog = () => {
   const router = useRouter();
   const [data, setData] = useState(null);
 
+  const {id} = router.query
+
   const showData = async () => {
     const response = await fetch(
-      `http://localhost:1337/blogs/${router.query.id}`
+      `http://localhost:1337/api/blogs/${id}`
     );
     const json = await response.json();
-    setData(json);
+    setData(json.data);
   };
 
   useEffect(() => {
     showData();
-  });
+  }, [id]);
 
   return (
     <>
@@ -26,12 +28,8 @@ const Blog = () => {
         <div>
           {data && (
             <section className='p-5 mb-5 md:mb-0 rounded-lg bg-white shadow-lg'>
-              {/* <img
-                className='w-full rounded'
-                src={`http://localhost:1337${data.Cover.url}`}
-              /> */}
-              <h1 className='mt-4 text-2xl text-center'>{data.Title}</h1>
-              <Markdown className='whitespace-pre-wrap p-10'>{data.Text}</Markdown>
+              <h1 className='mt-4 text-2xl text-center'>{data.attributes.title}</h1>
+              <Markdown className='whitespace-pre-wrap p-10'>{data.attributes.text}</Markdown>
             </section>
           )}
         </div>
